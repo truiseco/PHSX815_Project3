@@ -53,8 +53,13 @@ int main(int argc, char** argv){
   int num_meas = 1;
   mode = 0;
   rate = 0.05131;
+<<<<<<< HEAD
   alpha = 50;
   beta = 996;
+=======
+  alpha = 10;
+  beta = 199.2;
+>>>>>>> parent of 91c6502... first commit
 
   // Parse and process command line options
   for(int i = 1; i < argc; ++i){

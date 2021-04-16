@@ -106,8 +106,13 @@ int main(int argc, char** argv){
   int Nexp = 0;
   int mpe = 0;
 	double rate = 0.05131;
+<<<<<<< HEAD
 	double alpha = 50.0;
 	double beta = 996.0;
+=======
+	double alpha = 10.0;
+	double beta = 199.2;
+>>>>>>> parent of 91c6502... first commit
 
   // Parse and process command line options
   for(int i = 1; i < argc; ++i){
